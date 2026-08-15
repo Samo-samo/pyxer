@@ -1,0 +1,26 @@
+{
+  "PySide6": {
+    "keep": [
+      "__init__.py",
+      "_config.py",
+      "py.typed",
+      "pyside6.abi3.dll",
+      "Qt6Core.dll",
+      "Qt6Gui.dll",
+      "Qt6Widgets.dll",
+      "QtCore.pyd",
+      "QtGui.pyd",
+      "QtWidgets.pyd",
+      "QtCore.pyi",
+      "QtGui.pyi",
+      "QtWidgets.pyi",
+      "__feature__.pyi"
+    ],
+    "dirs": {
+      "plugins/platforms": ["qwindows.dll"],
+      "plugins/styles": ["qmodernwindowsstyle.dll"],
+      "plugins/imageformats": "*",
+      "plugins/iconengines": "*"
+    }
+  }
+}

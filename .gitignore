@@ -1,0 +1,35 @@
+# pyxer build artifacts — never commit these.
+work/
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.obj
+*.pyd
+
+# launchers are compiled from .c at build time.
+launcher.exe
+launcher_onefile.exe
+
+# runtime data (SQLite) is written next to the exe by our apps.
+*.db
+*.db-journal
+
+# version snapshots / build history (local only).
+releases/
+build_log.csv
+
+# tool caches downloaded at build time.
+_upx_cache/
+_runtime_cache/
+
+# misc editor / OS noise.
+.vscode/
+.idea/
+Thumbs.db
+
+# legacy test apps (replaced by examples/).
+src/
+src_gui/
+src_menu/

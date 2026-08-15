@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "gui": {
+      "Upx": true,
+      "NoSSL": true,
+      "TrimPython": true,
+      "NoConsole": true,
+      "Manifest": true,
+      "Checksum": true
+    },
+    "minimal": {
+      "NoConsole": true
+    },
+    "onefile": {
+      "Onefile": true
+    }
+  },
+  "apps": {
+    "hello": {
+      "source": "examples/hello",
+      "profile": "minimal"
+    },
+    "hello_gui": {
+      "source": "examples/hello_gui",
+      "profile": "gui"
+    },
+    "hello_pygame": {
+      "source": "examples/hello_pygame",
+      "profile": "minimal"
+    }
+  }
+}
